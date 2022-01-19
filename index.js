@@ -2,9 +2,9 @@ const axios = require('axios');
 const schedule = require('node-schedule');
 
 //Config Things
-let token = "70976-idwKvp55Jbwuf9JI0daGwg"; //Put your token here. Example: "TOKEN"
-let groupID = "79192702976"; //Put your Group ID here. Example: "111111"
-let discordWebhook = "https://discord.com/api/webhooks/933379980522557450/L1mNDeIINS1AOEAbu06LCSrc5f0uuQT9apt1sIRYUxplOdKHfpgNP0oBW71wjMDBnbqD"; //Discord Webhook
+let token = ""; //Put your token here. Example: "TOKEN"
+let groupID = ""; //Put your Group ID here. Example: "111111"
+let discordWebhook = ""; //Discord Webhook
 let AutoLike = false; //Auto Like
 
 let lastMessageID = 0;
